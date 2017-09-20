@@ -1,0 +1,121 @@
+Entity, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Base Currency, Plan Type (Plan1), Aggregation (Plan1), BusinessLine, Attribute_ByNature, Attribute_city
+EN1, Entity, 大搜狐, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN100, EN1, 大搜狐_缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+END01, EN1, 搜狐媒体_PC端, false, store, false, , , , , unspecified, CNY, true, +, , , 
+END0199, END01, 搜狐媒体_PC端_缺省, false, store, false, , , , , unspecified, CNY, true, +, , Attri_GA, Attri_北京
+EN101, END01, 广告销售, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN10101, EN101, 北京_广告销售, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN10102, EN101, 上海_广告销售, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_上海
+EN10103, EN101, 广州_广告销售, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_广州
+EN10104, EN101, 精准营销中心_广告销售, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN106, EN101, 客户服务中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN102, END01, 大内容, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN10200, EN102, 大内容_缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10217, EN102, 新闻财经中心, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN10209, EN10217, 新闻中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10210, EN10217, 总编室, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10213, EN10217, 军事中心_大内容, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10215, EN10217, 文化中心_大内容, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10207, EN10217, 金融中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10202, EN10217, 财经中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021109, EN10217, 时尚频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021106, EN10217, 女人频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10206, EN102, 体育中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10216, EN102, 搜狐新闻视频部（邱启明）, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10204, EN102, 媒体合作中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10220, EN102, 产品技术部, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN113, EN10220, 科技, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10221, EN10220, 搜生活, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN1021101, EN10221, 健康频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021110, EN10221, 视频支持部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021111, EN10221, 手机时尚部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021113, EN10221, 用户体验部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021118, EN10221, 内容营销中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021119, EN10221, 内容推广中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10212, EN10221, 移动媒体部_大内容, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10208, EN10221, 新媒体中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1022101, EN10221, 搜生活_本部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10218, EN10220, 媒体平台, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN10211, EN10218, 媒体组, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN1021102, EN10211, 教育频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021103, EN10211, 旅游频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021112, EN10211, 星座频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021105, EN10211, 母婴频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021114, EN10211, 美食组, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10219, EN10218, 社区, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN10214, EN10219, 彩票频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10205, EN10219, 搜狐社区中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10203, EN10219, 城市频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10201, EN10219, BD, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021104, EN10218, 绿色频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021107, EN10218, 品推组, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021108, EN10218, 上海记者站, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021115, EN10218, 奢侈品, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021116, EN10218, 艺术频道, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021117, EN10218, 技术设计部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1021120, EN10218, 时尚移动端, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN10403, EN10218, 媒体平台_本部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN10222, EN102, 快站, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN1022201, EN10222, 快站_本部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN10402, EN10222, My Sohu产品部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN10404, EN10222, 微门户产品部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN103, END01, 搜狐市场部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN108, END01, 微博业务部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN111, END01, 网安中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN104, END01, 门户技术中心, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN10410, EN104, 门户技术中心缺省, false, store, false, , , , , currency, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN10405, EN104, 应用运维部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN11407, EN104, 邮件中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN10406, EN104, 企业服务部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN10408, EN104, 社交媒体部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN122, EN104, 武汉研发, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN10409, EN104, 基础研发部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN10407, EN104, SendCloud, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN123, END01, 大数据中心-产品市场组, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN107, END01, 广告其他, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN1051, END01, Go2map, false, store, false, , , , , unspecified, CNY, true, +, , , Attri_北京
+END02, EN1, 搜狐媒体_移动端, false, store, false, , , , , unspecified, CNY, true, +, , , 
+END0299, END02, 搜狐媒体_移动端_缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN109, END02, 新闻客户端, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN120, END02, 手机搜狐网, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN121, END02, 移动应用探索中心及移动质量保证中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN110, EN1, SP业务, false, store, false, , , , , unspecified, CNY, true, +, Attri_Mobile, Attri_PD, Attri_北京
+END03, EN1, Corporate, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN112, END03, 呼叫中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_SM, Attri_北京
+EN114, END03, 技术中心, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN11499, EN114, 技术中心缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN11400, EN114, 技术中心_缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11401, EN114, 支付平台产品部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11402, EN114, 北京研发中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11403, EN114, 技术运维部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11404, EN114, ERP部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11409, EN114, MIS部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11405, EN114, 搜狐采购部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11406, EN114, 武汉研发中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_武汉
+EN10401, EN114, 大数据中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN11408, EN114, 家庭娱乐事业部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_PD, Attri_北京
+EN115, END03, Back office, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN11599, EN115, Back office adj, false, store, false, , , , , unspecified, CNY, true, +, , Attri_GA, Attri_北京
+EN11504, EN115, 投资者关系部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+EN11507, EN115, 员工服务中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+EN11501, EN115, 财务部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+EN11505, EN115, 内部审计部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+EN11506, EN115, 人力资源部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+EN11503, EN115, 集团管理部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+EN11502, EN115, 法律部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+EN11508, EN115, 农场, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, Attri_北京
+END04, EN1, 辅助, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN116, END04, 办公费用公摊, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+EN117, END04, 集团内部交易, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+EN118, END04, 增值税的附加税, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+EN119, END04, 折旧带宽公摊, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+EN5, Entity, 分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN501, EN5, 大搜狐_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN508, EN5, 体育中心_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN502, EN5, 汽车_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN503, EN5, 焦点_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN504, EN5, 视频_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN507, EN5, 视频_PC端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN506, EN5, 视频_移动端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN505, EN5, FacilityEntity, false, store, false, , , , , unspecified, CNY, true, +, , , 
+NoEntity, Entity, 与部门无关, false, store, false, , , , , unspecified, CNY, true, ~, , , 

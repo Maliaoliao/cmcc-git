@@ -1,0 +1,219 @@
+Spare2, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Aggregation (Plan1)
+NoSpare2, Spare2, Spare2_缺省, false, store, false, , , , , unspecified, +
+SP21, Spare2, 资产类别汇总, false, store, false, , , , , unspecified, +
+SP2101, SP21, 服务器类, false, store, false, , , , , unspecified, +
+SP210101, SP2101, Server, false, store, false, , , , , unspecified, +
+SP210102, SP2101, Network Equipment, false, store, false, , , , , unspecified, +
+SP2102, SP21, 员工类, false, store, false, , , , , unspecified, +
+SP210201, SP2102, Computer, false, store, false, , , , , unspecified, +
+SP210202, SP2102, Leasehold Improvement, false, store, false, , , , , unspecified, +
+SP210203, SP2102, Office Equipment, false, store, false, , , , , unspecified, +
+SP210204, SP2102, Furniture and Fixture, false, store, false, , , , , unspecified, +
+SP210205, SP2102, Vehicle, false, store, false, , , , , unspecified, +
+SP210206, SP2102, Building, false, store, false, , , , , unspecified, +
+SP210207, SP2102, Park Lot Using Right, false, store, false, , , , , unspecified, +
+SP2103, SP21, 软件类, false, store, false, , , , , unspecified, +
+SP22, Spare2, 福利费类别, false, store, false, , , , , unspecified, +
+SP2201, SP22, 福利费涨幅比率, false, store, false, , , , , unspecified, +
+SP2202, SP22, 福利基数, false, store, false, , , , , unspecified, +
+SP23, Spare2, 节点汇总, false, store, false, , , , , unspecified, +
+SP23S31, SP23, 北京联通_皂君庙, false, store, false, DGPT接口, , , , unspecified, +
+SP23S71, SP23, 北京联通_皂君庙_北显合同, false, store, false, DGPT接口, , , , unspecified, +
+SP23S13, SP23, 北京电信兆维二层_一期, false, store, false, DGPT接口, , , , unspecified, +
+SP23S14, SP23, 北京电信兆维三层_一期, false, store, false, DGPT接口, , , , unspecified, +
+SP23S15, SP23, 北京电信兆维三层_二期, false, store, false, DGPT接口, , , , unspecified, +
+SP23S05, SP23, 北京联通土城七层, false, store, false, DGPT接口, , , , unspecified, +
+SP23S72, SP23, 北京联通土城六层_互联网6个机架, false, store, false, DGPT接口, , , , unspecified, +
+SP23S12, SP23, 北京电信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S02, SP23, 济南联通担山屯, false, store, false, DGPT接口, , , , unspecified, +
+SP23S88, SP23, 沈阳联通华翔机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S07, SP23, 武汉电信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S21, SP23, 赛尔教育网IDC, false, store, false, DGPT接口, , , , unspecified, +
+SP23S01, SP23, 郑州联通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S105, SP23, 搜狐媒体大厦至铁通丰台互联裸光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S03, SP23, 济南联通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S94, SP23, 浙江联通(1号楼枢纽), false, store, false, DGPT接口, , , , unspecified, +
+SP23S04, SP23, 北京联通土城六层, false, store, false, DGPT接口, , , , unspecified, +
+SP23S20, SP23, 北京铁通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S73, SP23, 北京联通土城七层_临时带宽, false, store, false, DGPT接口, , , , unspecified, +
+SP23S06, SP23, 北京联通土城九层, false, store, false, DGPT接口, , , , unspecified, +
+SP23S74, SP23, 北京联通土城九层_北显合同, false, store, false, DGPT接口, , , , unspecified, +
+SP23S09, SP23, 成都电信二枢, false, store, false, DGPT接口, , , , unspecified, +
+SP23S08, SP23, 广州电信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S75, SP23, 广州第三方电信代理, false, store, false, DGPT接口, , , , unspecified, +
+SP23S16, SP23, 上海电信南汇, false, store, false, DGPT接口, , , , unspecified, +
+SP23S63, SP23, 搜狐媒体_搜狐网络大厦144芯光纤互联, false, store, false, DGPT接口, , , , unspecified, +
+SP23S22, SP23, 同兴海外CDN, false, store, false, DGPT接口, , , , unspecified, +
+SP23S23, SP23, 蓝汛海外CDN, false, store, false, DGPT接口, , , , unspecified, +
+SP23S58, SP23, 北京联通北显, false, store, false, DGPT接口, , , , unspecified, +
+SP23S82, SP23, IPv6接入带宽, false, store, false, DGPT接口, , , , unspecified, +
+SP23S19, SP23, 香港电信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S76, SP23, 上海电信桂桥机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S78, SP23, BGP带宽, false, store, false, DGPT接口, , , , unspecified, +
+SP23S120, SP23, 专线号08523063土城九层3机房_土城十层2机房(搜狐微博组织机构代码认证), false, store, false, DGPT接口, , , , unspecified, +
+SP23S59, SP23, 广东移动, false, store, false, DGPT接口, , , , unspecified, +
+SP23S57, SP23, 北京移动菜市口, false, store, false, DGPT接口, , , , unspecified, +
+SP23S56, SP23, 北京移动丰台, false, store, false, DGPT接口, , , , unspecified, +
+SP23S113, SP23, 北京移动丰台机房(Wirless), false, store, false, DGPT接口, , , , unspecified, +
+SP23S77, SP23, 北京铁通丰台机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S92, SP23, 网宿CDN（云平台）, false, store, false, DGPT接口, , , , unspecified, +
+SP23S95, SP23, 以前年度节点余额冲销, false, store, false, DGPT接口, , , , unspecified, +
+SP23S60, SP23, 北京移动雍和宫, false, store, false, DGPT接口, , , , unspecified, +
+SP23S79, SP23, 海外机房_4KVA, false, store, false, DGPT接口, , , , unspecified, +
+SP23S80, SP23, 南方电信机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S81, SP23, 北方联通新机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S99, SP23, 辽宁移动机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S100, SP23, 安徽移动机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S17, SP23, 上海电信南汇Office, false, store, false, DGPT接口, , , , unspecified, +
+SP23S10, SP23, 成都电信西信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S116, SP23, 网宿洛杉矶机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S117, SP23, 联通土城六层 IVP6, false, store, false, DGPT接口, , , , unspecified, +
+SP23S138, SP23, 上海南汇机房云景项目, false, store, false, DGPT接口, , , , unspecified, +
+SP23S148, SP23, 网宿海外CDN, false, store, false, DGPT接口, , , , unspecified, +
+SP23S24, SP23, 北京联通土层内部7F至10F互联专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S27, SP23, 北京联通融科C座19F机房_搜狐大厦机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S118, SP23, 光8241 联通土城九层_搜狐网络大厦(骨干网互联), false, store, false, DGPT接口, , , , unspecified, +
+SP23S26, SP23, 光7768 联通土城九层_搜狐网络大厦(教育网互联), false, store, false, DGPT接口, , , , unspecified, +
+SP23S28, SP23, 北京联通搜狐11F_融科办公区, false, store, false, DGPT接口, , , , unspecified, +
+SP23S29, SP23, 北京联通融科物业线路, false, store, false, DGPT接口, , , , unspecified, +
+SP23S30, SP23, 北京联通融科大厦C座_搜狐大厦体育部门, false, store, false, DGPT接口, , , , unspecified, +
+SP23S32, SP23, 北京联通_济南联通2.5G长途电路, false, store, false, DGPT接口, , , , unspecified, +
+SP23S33, SP23, 联通土城_河南郑州联通20M以太网专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S119, SP23, 皂君庙_兆维、土城_兆维互联设备维护费用, false, store, false, DGPT接口, , , , unspecified, +
+SP23S132, SP23, 光1888&光1889 北京联通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S35, SP23, 搜狐网络大厦联通 120M互联网出口线路, false, store, false, DGPT接口, , , , unspecified, +
+SP23S36, SP23, 北京联通皂君庙_福州, false, store, false, DGPT接口, , , , unspecified, +
+SP23S37, SP23, 北京联通土城9F3机房到土城10F2机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S133, SP23, 专线号08523062&08523063, false, store, false, DGPT接口, , , , unspecified, +
+SP23S39, SP23, 北京联通土城7F到济南联通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S134, SP23, 光10733&光10734 北京联通北显, false, store, false, DGPT接口, , , , unspecified, +
+SP23S40, SP23, 搜狐网络大厦电信 100M互联网出口线路, false, store, false, DGPT接口, , , , unspecified, +
+SP23S41, SP23, 电信兆维到兆维楼内北京联通4芯光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S42, SP23, 北京电信电信通_搜狐大厦, false, store, false, DGPT接口, , , , unspecified, +
+SP23S43, SP23, 上海电信到上海南汇, false, store, false, DGPT接口, , , , unspecified, +
+SP23S44, SP23, 武汉电信二枢纽_北京电信兆维20M长途电路, false, store, false, DGPT接口, , , , unspecified, +
+SP23S122, SP23, 武汉办公区语音线路专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S123, SP23, 武汉办公区_武汉电信IDC机房50M专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S45, SP23, 武汉办公区电信 30M互联网出口, false, store, false, DGPT接口, , , , unspecified, +
+SP23S46, SP23, 搜狐网络大厦11层_丰台铁通IDC裸光纤电路, false, store, false, DGPT接口, , , , unspecified, +
+SP23S47, SP23, 同方办公区至搜狐网络大厦联通2对专线合同(光8940、8941), false, store, false, DGPT接口, , , , unspecified, +
+SP23S48, SP23, 同方办公区物业管道占用, false, store, false, DGPT接口, , , , unspecified, +
+SP23S49, SP23, "北京物业公司融科A,C座互联", false, store, false, DGPT接口, , , , unspecified, +
+SP23S50, SP23, 北京物业公司融科A座2F联通机房_C座南楼19F, false, store, false, DGPT接口, , , , unspecified, +
+SP23S51, SP23, 北京物业公司融科A座2F联通机房_A座4F, false, store, false, DGPT接口, , , , unspecified, +
+SP23S52, SP23, 融科物业管井占用费(联通2对、众屹赢时1对专线), false, store, false, DGPT接口, , , , unspecified, +
+SP23S53, SP23, 北京物业公司搜狐11F_融科办公区, false, store, false, DGPT接口, , , , unspecified, +
+SP23S54, SP23, 北京物业公司搜狐大厦_华清嘉园办公区, false, store, false, DGPT接口, , , , unspecified, +
+SP23S55, SP23, 香港港交所实时行情接入线路费用, false, store, false, DGPT接口, , , , unspecified, +
+SP23S62, SP23, 北京联通同方D座办公区_搜狐大厦, false, store, false, DGPT接口, , , , unspecified, +
+SP23S64, SP23, 电信通酒仙桥鹏博士IDC_搜狐网络大厦11层, false, store, false, DGPT接口, , , , unspecified, +
+SP23S65, SP23, 清华大学主楼306室到搜狐网络大厦11层2芯裸光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S66, SP23, 北京联通一条互联专用电路设备维护, false, store, false, DGPT接口, , , , unspecified, +
+SP23S67, SP23, 北京联通公司融科A_C座互联, false, store, false, DGPT接口, , , , unspecified, +
+SP23S86, SP23, 搜狐大厦_电信通IDC两条互联光纤租用费, false, store, false, DGPT接口, , , , unspecified, +
+SP23S68, SP23, 搜狐媒体大厦至广州分公司10M网络专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S93, SP23, 香港办公室光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S85, SP23, 广州电信(人民中)机房_广州分公司裸光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S98, SP23, 网络大厦至媒体大厦第二运营商光缆, false, store, false, DGPT接口, , , , unspecified, +
+SP23S87, SP23, 媒体大厦电信 100M互联网出口, false, store, false, DGPT接口, , , , unspecified, +
+SP23S101, SP23, 北京移动丰台IDC至北京搜狐媒体大厦一对裸光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S90, SP23, 搜狐媒体大厦联通 120M互联网出口, false, store, false, DGPT接口, , , , unspecified, +
+SP23S129, SP23, 网聚无限（云平台）CDN（静态内容）, false, store, false, DGPT接口, , , , unspecified, +
+SP23S25, SP23, 光1888 北京联通皂君庙_北京电信兆维, false, store, false, DGPT接口, , , , unspecified, +
+SP23S91, SP23, 光12616 搜狐媒体大厦_联通土城, false, store, false, DGPT接口, , , , unspecified, +
+SP23S103, SP23, 湖北铁通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S96, SP23, 电信兆维_搜狐媒体大厦2芯裸光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S97, SP23, 电信_搜狐媒体大厦语音, false, store, false, DGPT接口, , , , unspecified, +
+SP23S104, SP23, 上海联通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S107, SP23, 北京移动丰台_搜狐媒体大厦, false, store, false, DGPT接口, , , , unspecified, +
+SP23S102, SP23, 商业CDN搜狐cdn机动储备, false, store, false, DGPT接口, , , , unspecified, +
+SP23S110, SP23, 上海联通_上海办公区, false, store, false, DGPT接口, , , , unspecified, +
+SP23S147, SP23, 香港和记电讯机房, false, store, false, DGPT接口, , , , unspecified, +
+SP23S149, SP23, 南京移动, false, store, false, DGPT接口, , , , unspecified, +
+SP23S125, SP23, 光8406 融科C座19F办公区至搜狐网络大厦11F机房联通点对点光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S136, SP23, 融科物业光纤管井租用, false, store, false, DGPT接口, , , , unspecified, +
+SP23S151, SP23, 白山云CDN, false, store, false, DGPT接口, , , , unspecified, +
+SP23S153, SP23, 深圳至广州10M专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S111, SP23, 上海办公室(瑞安广场)_上海电信(南汇), false, store, false, DGPT接口, , , , unspecified, +
+SP23S126, SP23, 上海办公室(瑞安广场)_上海电信(桂桥), false, store, false, DGPT接口, , , , unspecified, +
+SP23S112, SP23, 广州东莞联通(科学城), false, store, false, DGPT接口, , , , unspecified, +
+SP23S114, SP23, 搜狐媒体大厦至武汉研究院10M 移动网络专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S115, SP23, 搜狐媒体大厦至上海分公司10M 移动专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S121, SP23, 光10734 北京联通北显_北京联通皂君庙光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S141, SP23, 上海电信（桂桥）云景, false, store, false, DGPT接口, , , , unspecified, +
+SP23S124, SP23, 融科物业管井租用合同_融科AC互联及50M互联网, false, store, false, DGPT接口, , , , unspecified, +
+SP23S154, SP23, 腾讯云CDN, false, store, false, DGPT接口, , , , unspecified, +
+SP23S131, SP23, 网宿CDN（静态内容), false, store, false, DGPT接口, , , , unspecified, +
+SP23S159, SP23, 济南担山屯机房至上海桂桥机房10G以太专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S162, SP23, 北京移动国际信息港, false, store, false, DGPT接口, , , , unspecified, +
+SP23S165, SP23, 上海桂桥机房至广州人民中路机房10G以太专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S164, SP23, 深圳证券交易所至广州人民中路机房2M专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S106, SP23, 上海电信南汇_上海电信桂桥互联裸光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S108, SP23, 融科C至搜狐网络大厦3对点对点光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S109, SP23, 融科物业管井租用合同_RKC10F至19F及RKC至RKD, false, store, false, DGPT接口, , , , unspecified, +
+SP23S11, SP23, 昆明电信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S127, SP23, 重庆, false, store, false, DGPT接口, , , , unspecified, +
+SP23S128, SP23, 广西南宁电信IDC（第二节点）, false, store, false, DGPT接口, , , , unspecified, +
+SP23S135, SP23, 光12614&光12615&光12616 北京联通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S137, SP23, 北美电信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S139, SP23, 中国电信云计算, false, store, false, DGPT接口, , , , unspecified, +
+SP23S140, SP23, 北京电信兆维三层机房至广州电信人民中路机房POS 2.5G数, false, store, false, DGPT接口, , , , unspecified, +
+SP23S142, SP23, 蓝汛-搜狐支付, false, store, false, DGPT接口, , , , unspecified, +
+SP23S143, SP23, 广州联通机房至广州Office裸光, false, store, false, DGPT接口, , , , unspecified, +
+SP23S144, SP23, 广州联通, false, store, false, DGPT接口, , , , unspecified, +
+SP23S145, SP23, 搜狐媒体大厦至武汉研究院10M 移动络专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S146, SP23, 网宿北美, false, store, false, DGPT接口, , , , unspecified, +
+SP23S150, SP23, 上海焦点, false, store, false, DGPT接口, , , , unspecified, +
+SP23S152, SP23, 高升CDN, false, store, false, DGPT接口, , , , unspecified, +
+SP23S155, SP23, 北京移动, false, store, false, DGPT接口, , , , unspecified, +
+SP23S156, SP23, 搜狐媒体大厦至上海焦点10M移动专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S157, SP23, 搜狐网络大厦至济南担山屯机房10G以太专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S158, SP23, 搜狐媒体大厦至上海桂桥机房10G以太专线, false, store, false, DGPT接口, , , , unspecified, +
+SP23S160, SP23, 上海办公室(瑞安广场)_上海电信南汇_上海电信桂桥裸光, false, store, false, DGPT接口, , , , unspecified, +
+SP23S161, SP23, 北京联通皂君庙一个千兆端口, false, store, false, DGPT接口, , , , unspecified, +
+SP23S18, SP23, 上海电信华京, false, store, false, DGPT接口, , , , unspecified, +
+SP23S34, SP23, 光1889 北京联通土城 _ 北京电信兆维, false, store, false, DGPT接口, , , , unspecified, +
+SP23S38, SP23, 专线号08523062土城九层3机房_首体南路1号主楼4M SDH以太网专线(搜狐微博实名身份认证), false, store, false, DGPT接口, , , , unspecified, +
+SP23S61, SP23, 陕西西安电信, false, store, false, DGPT接口, , , , unspecified, +
+SP23S69, SP23, 光10733 联通北显_北京联通土城, false, store, false, DGPT接口, , , , unspecified, +
+SP23S70, SP23, 北京电信兆维三层_上海电信南汇2.5G长途数字电路, false, store, false, DGPT接口, , , , unspecified, +
+SP23S83, SP23, 光12614 搜狐媒体大厦_联通皂君庙互联光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S84, SP23, 光12615 搜狐媒体大厦_北京联通北显IDC一对互联光纤, false, store, false, DGPT接口, , , , unspecified, +
+SP23S89, SP23, 搜狐媒体大厦至广州分公司10M网络专线(弃用), false, store, false, , , , , unspecified, +
+SP23S163, SP23, 快网CDN, false, store, false, DGPT接口, , , , unspecified, +
+SP23S166, SP23, 融科C19F-融科C20F裸纤, false, store, false, DGPT接口, , , , unspecified, +
+SP24, Spare2, 广告收入汇总, false, store, false, , , , , unspecified, ~
+SP2401, SP24, 品牌广告, false, store, false, , , , , unspecified, +
+SP2402, SP24, 中长尾-精准CPC, false, store, false, , , , , unspecified, +
+SP2403, SP24, 中长尾-其他, false, store, false, , , , , unspecified, +
+SP23Bak, Spare2, 节点备份, false, store, false, , , , , unspecified, +
+SP23S13Old, SP23Bak, 北京电信兆维二层_一期Old, false, store, false, , , , , unspecified, +
+SP23S14Old, SP23Bak, 北京电信兆维三层_一期Old, false, store, false, , , , , unspecified, +
+SP23S15Old, SP23Bak, 北京电信兆维三层_二期Old, false, store, false, , , , , unspecified, +
+SP23S04Old, SP23Bak, 北京联通土城六层Old, false, store, false, , , , , unspecified, +
+SP23S79Old, SP23Bak, 海外机房_4KVAOld, false, store, false, , , , , unspecified, +
+SP23S118Old, SP23Bak, 上海南汇机房_云景Old, false, store, false, , , , , unspecified, +
+SP23S119Old, SP23Bak, 北美网宿（海外CDN加速服务）Old, false, store, false, , , , , unspecified, +
+SP23S25Old, SP23Bak, 北京联通皂君庙to兆维_土城to兆维Old, false, store, false, , , , , unspecified, +
+SP23S26Old, SP23Bak, 北京联通土城9F_搜狐大厦Old, false, store, false, , , , , unspecified, +
+SP23S34Old, SP23Bak, 北京联通皂君庙_兆维Old, false, store, false, , , , , unspecified, +
+SP23S38Old, SP23Bak, 北京联通土城9F3机房到首体南路1号主楼1F机房Old, false, store, false, , , , , unspecified, +
+SP23S69Old, SP23Bak, 北京联通_北显IDC皂君庙IDC和北显IDC土城IDCOld, false, store, false, , , , , unspecified, +
+SP23S43Old, SP23Bak, 上海电信到上海南汇Old, false, store, false, , , , , unspecified, +
+SP23S45Old, SP23Bak, 武汉办公区互联线路Old, false, store, false, , , , , unspecified, +
+SP23S47Old, SP23Bak, 北京物业公司同方D座办公区_搜狐大厦Old, false, store, false, , , , , unspecified, +
+SP23S83Old, SP23Bak, 搜狐媒体大厦至北京联通皂君庙IDC一对互联光纤Old, false, store, false, , , , , unspecified, +
+SP23S84Old, SP23Bak, 搜狐媒体大厦至北京联通北显IDC一对互联光纤Old, false, store, false, , , , , unspecified, +
+SP23S91Old, SP23Bak, 搜狐媒体大厦至北京联通土城IDC一对互联光纤Old, false, store, false, , , , , unspecified, +
+SP23S107Old, SP23Bak, 北京移动丰台_搜狐媒体大厦Old, false, store, false, , , , , unspecified, +
+SP23S108Old, SP23Bak, 融科C_搜狐网络大厦Old, false, store, false, , , , , unspecified, +
+SP23S109Old, SP23Bak, 融科C座南楼办公区建设-物业光纤管井占用Old, false, store, false, , , , , unspecified, +
+SP23S111Old, SP23Bak, 上海办公区_南汇IDC和桂桥IDCOld, false, store, false, , , , , unspecified, +
+SP23S112Old, SP23Bak, 广州东莞联通（科学城）Old, false, store, false, , , , , unspecified, +
+SP23S125Old, SP23Bak, 北京移动菜市口(Wirless)Old, false, store, false, , , , , unspecified, +
+SP23S127Old, SP23Bak, 上海电信（桂桥）云景Old, false, store, false, , , , , unspecified, +
+SP23S128Old, SP23Bak, 网宿科技CDN加速Old, false, store, false, , , , , unspecified, +
+SP23S129Old, SP23Bak, 土城九层_搜狐网络大厦Old, false, store, false, , , , , unspecified, +
+SP23S130Old, SP23Bak, SohuHP _北京移动菜市口Old, false, store, false, , , , , unspecified, +
+SP23S141Old, SP23Bak, 广州联通机房至广州Office裸光租用费用（静态内容）Old, false, store, false, , , , , unspecified, +
+SP23S143Old, SP23Bak, 北京电信兆维VIP11机房至广州电信人民中路机房Old, false, store, false, , , , , unspecified, +

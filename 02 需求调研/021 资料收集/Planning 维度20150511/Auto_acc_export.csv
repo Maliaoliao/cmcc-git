@@ -1,0 +1,142 @@
+Account, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Account Type, Time Balance, Skip Value, Exchange Rate Type, Variance Reporting, Source Plan Type, Plan Type (Plan1), Aggregation (Plan1)
+AAT1, Account, 营业利润, false, dynamic calc, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT101, AAT1, 净收入合计, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT10101, AAT101, 广告收入, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT1010101, AAT10101, 品牌收入, false, store, false, , , AR50105, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT1010102, AAT10101, 地方站收入, false, store, false, , , AR50105, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT1010103, AAT10101, 买车宝, false, store, false, , , AR50105, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT1010104, AAT10101, 团购, false, store, false, , , AR50105, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT10102, AAT101, 其他收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT102, AAT1, 成本合计, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, -
+AAT10201, AAT102, 广告成本, false, store, false, , , AD1001, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT10202, AAT102, 其他成本, false, store, false, , , AD1003, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AAT103, AAT1, 费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, -
+AAT10301, AAT103, 人员费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030101, AAT10301, 工资, false, store, false, , , AE1101, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030102, AAT10301, 奖金, false, store, false, , , AE1102, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030103, AAT10301, 销售人员奖金, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030104, AAT10301, 加班费, false, store, false, , , AE1104, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030105, AAT10301, 劳务费, false, store, false, , , AE1105, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030106, AAT10301, 离职补偿金, false, store, false, , , AE1106, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030107, AAT10301, 津贴, false, store, false, , , AE1107, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030108, AAT10301, 员工活动费, false, store, false, , , AE1108, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030109, AAT10301, 外籍员工生活费及其他, false, store, false, , , AE1109, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030110, AAT10301, 外籍员工税金, false, store, false, , , AE1110, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030111, AAT10301, 员工房租补贴, false, store, false, , , AE1111, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030112, AAT10301, 外企服务费, false, store, false, , , AE1113, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030113, AAT10301, 员工商业保险, false, store, false, , , AE1114, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030114, AAT10301, 福利费_养老金, false, store, false, , , AE1201, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030115, AAT10301, 福利费_医疗保险, false, store, false, , , AE1202, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030123, AAT10301, 福利费_生育保险, false, store, false, , , AE1202, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT1030116, AAT10301, 福利费_工伤失业保险, false, store, false, , , AE1203, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030117, AAT10301, 福利费_住房公积金, false, store, false, , , AE1204, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030118, AAT10301, 福利费_教育经费, false, store, false, , , AE1205, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030119, AAT10301, 福利费_工会经费, false, store, false, , , AE1206, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030120, AAT10301, 福利费_其他, false, store, false, , , AE1207, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030121, AAT10301, 福利费_残障金, false, store, false, , , AE1208, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030122, AAT10301, Stock  Compensation, false, store, false, , , AE1209, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT1030198, AAT10301, 人员费用_VAT抵减, false, store, false, , , AE1189, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030199, AAT10301, 人员费用_整体调整, false, store, false, , , AE1100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10302, AAT103, 差旅应酬费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030201, AAT10302, 差旅费用, false, store, false, , , AE1300_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030202, AAT10302, 应酬费用, false, store, false, , , AE1300_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030299, AAT10302, 差旅应酬费用_整体调整, false, store, false, , , AE1300_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10303, AAT103, 专业服务费用, false, store, false, , , AE1500_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10304, AAT103, 市场推广费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030401, AAT10304, 日常推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040101, AAT1030401, 日常推广_committed, false, store, false, , , "AE1601, DGPT", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT103040102, AAT1030401, 日常推广_uncommitted, false, store, false, , , "AE1601, DGPT", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT1030403, AAT10304, 车展费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040301, AAT1030403, 车展费用_committed, false, store, false, , , "DGPT, AE1604", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040302, AAT1030403, 车展费用_uncommitted, false, store, false, , , "DGPT, AE1604", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030404, AAT10304, SAA运营, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040401, AAT1030404, SAA运营_committed, false, store, false, , , "DGPT, AE1604", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040402, AAT1030404, SAA运营_uncommitted, false, store, false, , , "DGPT, AE1604", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030405, AAT10304, PR及广告费用, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT103040501, AAT1030405, PR及广告费用_committed, false, store, false, , , "DGPT, AE1600_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT103040502, AAT1030405, PR及广告费用_uncommitted, false, store, false, , , "DGPT, AE1600_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT1030406, AAT10304, 市场研究及外包, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT103040601, AAT1030406, 市场研究及外包_committed, false, store, false, , , "DGPT, AE1600_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT103040602, AAT1030406, 市场研究及外包_uncommitted, false, store, false, , , "DGPT, AE1600_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT1030407, AAT10304, 地方站推广, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT103040701, AAT1030407, 地方站推广_committed, false, store, false, , , "DGPT, AE1600_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT103040702, AAT1030407, 地方站推广_uncommitted, false, store, false, , , "DGPT, AE1600_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT1030498, AAT10304, 市场推广费用_VAT抵减, false, store, false, , , AE1689, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030499, AAT10304, 市场推广费用_整体调整, false, store, false, , , AE1600_Eli, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030402, AAT103, 渠道费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040201, AAT1030402, 渠道费用_committed, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040202, AAT1030402, 渠道费用_uncommitted, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040298, AAT1030402, 渠道费用_VAT抵减, false, store, false, , , AE160302, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT103040299, AAT1030402, 渠道费用_整体调整, false, store, false, , , AE160301, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10305, AAT103, 内容采购费用, false, store, false, , , AE1700_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10306, AAT103, 通讯费用, false, store, false, , , AE2500_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10307, AAT103, 坏账费用, false, store, false, , , AE2000, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10308, AAT103, 折旧费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030801, AAT10308, 员工类折旧费用, false, store, false, , , AE2100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030802, AAT10308, 服务器类折旧费用, false, store, false, , , AE2100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030803, AAT10308, 软件类折旧费用, false, store, false, , , AE2204, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1030804, AAT10308, 折旧费用_整体调整, false, store, false, , , AE2100_Budget, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AAT10309, AAT103, 其他资产分摊, false, store, false, , , AE2200_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10310, AAT103, 办公费用, false, store, false, , , AE1900_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10311, AAT103, 公摊费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1031101, AAT10311, 公司分摊公摊费用, false, store, false, , , AE1800_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1031102, AAT10311, 其他分摊公摊费用, false, store, false, , , "DGPT, AE1800_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT1031103, AAT10311, 部门自有公摊费用, false, store, false, , , "DGPT, AE1800_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10312, AAT103, 培训费用, false, store, false, , , AE1401, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10313, AAT103, 销售费用分摊, false, store, false, , , AE2602, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10314, AAT103, Back office费用分摊, false, store, false, , , AE2602, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT10315, AAT103, Intangible Assets Impairment, false, store, false, , , AE2700, , currency, expense, flow, none, none, expense, Plan1, true, -
+AAT10316, AAT103, Goodwill Impairment, false, store, false, , , AE2800, , currency, expense, flow, none, none, expense, Plan1, true, -
+AAT2, Account, Capex工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT201, AAT2, 采购金额, false, store, false, , , "DGPT, AFN41", , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT202, AAT2, 到货金额, false, store, false, , , "DGPT, AFN42", , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT3, Account, HC预算, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT301, AAT3, 可招人数预算, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT30102, AAT301, 新增可招人数, false, store, false, , , AFN50102, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT3010, AAT301, 期末可招人数, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT30101, AAT3010, 期末全职可招人数, false, store, false, , , AFN50101, , non-currency, saved assumption, balance, none, none, non-expense, Plan1, true, +
+AAT30103, AAT3010, 期末兼职可招人数, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT302, AAT3, 期末到岗, false, store, false, , , , , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, ~
+AAT30201, AAT302, 期末全职到岗, false, store, false, , , AFN50201, , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+AAT30202, AAT302, 期末兼职到岗, false, store, false, , , AFN50202, , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+AAT303, AAT3, 新增到岗, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT30301, AAT303, 新增全职到岗, false, store, false, , , AFN50301, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT30302, AAT303, 新增兼职到岗, false, store, false, , , AFN50302, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT4, Account, 其他工作科目, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT401, AAT4, 人员费用工作科目, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT40101, AAT401, 月度到岗比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT40102, AAT401, 基本工资_员工, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010201, AAT40102, 基本工资_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT4010202, AAT40102, 基本工资_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT40103, AAT401, Assumption, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010301, AAT40103, 平均工资, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT401030101, AAT4010301, 平均工资_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT401030102, AAT4010301, 平均工资_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT4010302, AAT40103, 餐补, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010303, AAT40103, 工资涨幅比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010304, AAT40103, PM Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010305, AAT40103, Overtime Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010306, AAT40103, 外企服务费_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010307, AAT40103, 外企服务费_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4010308, AAT40103, 销售人员奖金计算比例_工资福利, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, never
+AAT4010309, AAT40103, 销售人员奖金计算比例_收入, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, never
+AAT4010310, AAT40103, 销售人员奖金计算_基数调整, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT402, AAT4, 折旧费用工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT40201, AAT402, US GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT40202, AAT402, US GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT40203, AAT402, PRC GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT40204, AAT402, PRC GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT40205, AAT402, 折旧费用合计, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4020501, AAT40205, 已有资产折旧, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT4020502, AAT40205, 新增资产折旧, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT4020503, AAT40205, 大搜狐分摊折旧, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AAT403, AAT4, 公摊费用工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT40301, AAT403, 公司分摊公摊费用汇总, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+AAT4030101, AAT40301, 大搜狐分摊公摊费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT4030102, AAT40301, 汽车自有分摊公摊费用, false, store, false, , , DGPT, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT4030103, AAT40301, 其他版块分摊公摊费用, false, store, false, , , DGPT, , currency, expense, flow, none, none, expense, Plan1, true, +
+AAT40303, AAT403, 辅助编制科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4030301, AAT40303, 是否参与公摊费用分摊, false, store, false, , , , YorN, enumeration, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4030302, AAT40303, 公摊费用分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT4030303, AAT40303, 参与公摊费用分摊的人数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AAT404, AAT4, 汇率, false, store, false, , , , , currency, saved assumption, balance, none, none, non-expense, Plan1, true, ~

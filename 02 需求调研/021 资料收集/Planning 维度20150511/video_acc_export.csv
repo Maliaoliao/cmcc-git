@@ -1,0 +1,238 @@
+Account, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Account Type, Time Balance, Skip Value, Exchange Rate Type, Variance Reporting, Source Plan Type, Plan Type (Plan1), Aggregation (Plan1)
+AVD1, Account, 营业利润, false, dynamic calc, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD101, AVD1, 净收入合计, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD10101, AVD101, 广告收入, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010101, AVD10101, 品牌广告, false, store, false, , , AR50101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010106, AVD10101, 品牌广告_内部交易(与搜狗及畅游), false, store, false, , , AR50098, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010108, AVD10101, 品牌广告_内部交易(与搜狐), false, store, false, , , AR50096, , unspecified, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010103, AVD10101, 第三方广告联盟, false, store, false, , , AR50101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010104, AVD10101, 贴片效果类-游戏, false, store, false, , , AR50101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010105, AVD10101, 其他效果类-联盟, false, store, false, , , AR50101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010107, AVD10101, 其他广告收入, false, store, false, , , AR50101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD10102, AVD101, 其他收入, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010201, AVD10102, 分销收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010202, AVD10102, 用户付费收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010203, AVD10102, 互动直播收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010204, AVD10102, 分摊收入, false, store, false, , , AR58199, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010205, AVD10102, 和视界净收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010206, AVD10102, 收费视频业务净收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD1010299, AVD10102, 其他收入_其他, false, store, false, , , AR58101, , unspecified, revenue, flow, none, none, non-expense, Plan1, true, +
+AVD102, AVD1, 成本合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, -
+AVD10201, AVD102, 广告销售成本, false, store, false, , , AD1001, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10202, AVD102, 前向成本, false, store, false, , , AD1003, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10203, AVD102, 换剧成本, false, store, false, , , AD1003, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10204, AVD102, 其中:美剧分成成本, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD10205, AVD102, 投资成本, false, store, false, , , AD1003, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD103, AVD1, 费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, -
+AVD10301, AVD103, 人员费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030101, AVD10301, 工资, false, store, false, , , AE1101, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030102, AVD10301, 奖金, false, store, false, , , AE1102, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030103, AVD10301, 销售人员奖金, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030104, AVD10301, 加班费, false, store, false, , , AE1104, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030105, AVD10301, 劳务费, false, store, false, , , AE1105, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030106, AVD10301, 离职补偿金, false, store, false, , , AE1106, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030107, AVD10301, 津贴, false, store, false, , , AE1107, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030108, AVD10301, 员工活动费, false, store, false, , , AE1108, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030109, AVD10301, 外籍员工生活费及其他, false, store, false, , , AE1109, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030110, AVD10301, 外籍员工税金, false, store, false, , , AE1110, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030111, AVD10301, 员工房租补贴, false, store, false, , , AE1111, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030112, AVD10301, 外企服务费, false, store, false, , , AE1113, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030113, AVD10301, 员工商业保险, false, store, false, , , AE1114, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030114, AVD10301, 福利费_养老金, false, store, false, , , AE1201, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030115, AVD10301, 福利费_医疗保险, false, store, false, , , AE1202, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030123, AVD10301, 福利费_生育保险, false, store, false, , , AE1202, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030116, AVD10301, 福利费_工伤失业保险, false, store, false, , , AE1203, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030117, AVD10301, 福利费_住房公积金, false, store, false, , , AE1204, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030118, AVD10301, 福利费_教育经费, false, store, false, , , AE1205, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030119, AVD10301, 福利费_工会经费, false, store, false, , , AE1206, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030120, AVD10301, 福利费_其他, false, store, false, , , AE1207, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030121, AVD10301, 福利费_残障金, false, store, false, , , AE1208, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030122, AVD10301, Stock  Compensation, false, store, false, , , AE1209, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030198, AVD10301, 人员费用_VAT抵减, false, store, false, , , AE1189, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030199, AVD10301, 人员费用_整体调整, false, store, false, , , AE1100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10302, AVD103, 差旅应酬费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030201, AVD10302, 差旅应酬费用, false, store, false, , , AE1300_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030203, AVD10302, 部门活动, false, store, false, , , "AE1300_Budget, DGPT", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030299, AVD10302, 差旅应酬费用_整体调整, false, store, false, , , AE1300_Budget, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10303, AVD103, 技术服务费汇总, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030301, AVD10303, 技术服务费, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103030101, AVD1030301, 技术服务费_committed, false, store, false, , , "AE1500_Budget, DGPT", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103030102, AVD1030301, 技术服务费_uncommitted, false, store, false, , , "AE1500_Budget, DGPT", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030302, AVD10303, 技术服务费补入, false, store, false, , , AE1500_Budget, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030398, AVD10303, 技术服务费_VAT抵减, false, store, false, , , AE1589, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10304, AVD103, 市场费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030401, AVD10304, 市场推广费用, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD103040101, AVD1030401, 市场推广费用_committed, false, store, false, , , "DGPT, AE1601", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040102, AVD1030401, 市场推广费用_uncommitted, false, store, false, , , "DGPT, AE1601", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030405, AVD10304, 其他推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040501, AVD1030405, 其他推广_committed, false, store, false, , , "DGPT, AE1600_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040502, AVD1030405, 其他推广_uncommitted, false, store, false, , , "DGPT, AE1600_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030498, AVD10304, 市场费用_VAT抵减, false, store, false, , , AE1689, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030499, AVD10304, 市场费用_整体调整, false, store, false, , , AE1600_Eli, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030402, AVD103, 渠道费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040200, AVD1030402, 流量采购(含战略合作), false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040201, AVD103040200, 流量采购(含战略合作)_committed, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040202, AVD103040200, 流量采购(含战略合作)_uncommitted, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040203, AVD1030402, 移动视频推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10304020301, AVD103040203, 移动视频推广_committed, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10304020302, AVD103040203, 移动视频推广_uncommitted, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040204, AVD1030402, 搜狐影音推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10304020401, AVD103040204, 搜狐影音推广_committed, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10304020402, AVD103040204, 搜狐影音推广_uncommitted, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040298, AVD1030402, 渠道费用_VAT抵减, false, store, false, , , AE160302, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103040299, AVD1030402, 渠道费用_整体调整, false, store, false, , , AE160301, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305, AVD103, 内容采购费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050101, AVD10305, 视频版权摊销, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010101, AVD103050101, 视频版权摊销_committed, false, store, false, , , "DGPT, AE1702", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010102, AVD103050101, 视频版权摊销_uncommitted, false, store, false, , , "DGPT, AE1702", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050102, AVD10305, 其中:版权影响, false, store, false, , , AE1706, , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD103050103, AVD10305, 音乐版权摊销, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010301, AVD103050103, 音乐版权摊销_committed, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010302, AVD103050103, 音乐版权摊销_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050104, AVD10305, 电视台版权, false, store, false, , , , , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010401, AVD103050104, 电视台版权_committed, false, store, false, , , "DGPT, AE1700_Budget", , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010402, AVD103050104, 电视台版权_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050108, AVD10305, 综艺节目, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010801, AVD103050108, 综艺节目_committed, false, store, false, , , "DGPT, AE1700_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010802, AVD103050108, 综艺节目_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD103050105, AVD10305, 图文版权, false, store, false, , , , , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010501, AVD103050105, 图文版权_committed, false, store, false, , , "DGPT, AE1700_Budget", , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010502, AVD103050105, 图文版权_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050106, AVD10305, 原创节目, false, store, false, , , , , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010601, AVD103050106, 原创节目_committed, false, store, false, , , "DGPT, AE1700_Budget", , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010602, AVD103050106, 原创节目_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , non-currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050107, AVD10305, 自制剧, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010701, AVD103050107, 自制剧_committed, false, store, false, , , "DGPT, AE1700_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10305010702, AVD103050107, 自制剧_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD103050201, AVD10305, 销售型剧与节目, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10305020101, AVD103050201, 销售型剧与节目_committed, false, store, false, , , "AD1001, DGPT", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10305020102, AVD103050201, 销售型剧与节目_uncommitted, false, store, false, , , "AD1001, DGPT", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD103050202, AVD10305, 稿酬, false, store, false, , , "DGPT, AE1705", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050203, AVD10305, 其他内容, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305020301, AVD103050203, 视频内容, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030502030101, AVD10305020301, 视频内容_committed, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030502030102, AVD10305020301, 视频内容_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305020302, AVD103050203, 频道项目, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030502030201, AVD10305020302, 频道项目_committed, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030502030202, AVD10305020302, 频道项目_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10305020303, AVD103050203, 内容其他部分, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030502030301, AVD10305020303, 内容其他部分_committed, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030502030302, AVD10305020303, 内容其他部分_uncommitted, false, store, false, , , "DGPT, AE1700_Budget", , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD103050204, AVD10305, 付费内容, false, store, false, , , AE2602, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD103050205, AVD10305, PGC, false, store, false, , , AE2602, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD1030598, AVD10305, 内容采购费用_VAT抵减, false, store, false, , , AE1789, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030599, AVD10305, 内容采购费用_整体调整, false, store, false, , , AE1700_Eli, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10306, AVD103, 通讯费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030601, AVD10306, 带宽费用, false, store, false, , , AE2502, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030602, AVD10306, 电话费用, false, store, false, , , AE2501, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10307, AVD103, 坏账费用, false, store, false, , , AE2000, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10308, AVD103, 折旧费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030801, AVD10308, 员工类折旧费用, false, store, false, , , AE2100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030802, AVD10308, 服务器类折旧费用, false, store, false, , , AE2604, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1030803, AVD10308, 软件类折旧费用, false, store, false, , , AE2204, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10310, AVD103, 办公费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1031001, AVD10310, 版权登记费, false, store, false, , , AE1900_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1031002, AVD10310, 其他办公费用, false, store, false, , , AE1900_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1031098, AVD10310, 办公费用_VAT抵减, false, store, false, , , AE1989, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD10311, AVD103, 公摊费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1031101, AVD10311, 公司分摊公摊费用, false, store, false, , , AE2601, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD1031102, AVD10311, 部门自有公摊费用, false, store, false, , , AE1800_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD10314, AVD103, Back office费用分摊, false, store, false, , , AE2602, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD104, AVD1, 其他费用, false, store, false, , , A81200, , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, -
+AVD2, Account, Capex工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD201, AVD2, 采购金额, false, store, false, , , "DGPT, AFN41", , currency, asset, flow, none, none, non-expense, Plan1, true, +
+AVD202, AVD2, 到货金额, false, store, false, , , "DGPT, AFN42", , currency, asset, flow, none, none, non-expense, Plan1, true, +
+AVD3, Account, HC预算, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD301, AVD3, 可招人数预算, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD30102, AVD301, 新增可招人数, false, store, false, , , AFN50102, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD3010, AVD301, 期末可招人数, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD30101, AVD3010, 期末全职可招人数, false, store, false, , , AFN50101, , non-currency, saved assumption, balance, none, none, non-expense, Plan1, true, +
+AVD30103, AVD3010, 期末兼职可招人数, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD302, AVD3, 期末到岗, false, store, false, , , , , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, ~
+AVD30201, AVD302, 期末全职到岗, false, store, false, , , AFN50201, , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+AVD30202, AVD302, 期末兼职到岗, false, store, false, , , AFN50202, , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+AVD303, AVD3, 新增到岗, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD30301, AVD303, 新增全职到岗, false, store, false, , , AFN50301, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD30302, AVD303, 新增兼职到岗, false, store, false, , , AFN50302, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4, Account, 辅助编制科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD401, AVD4, 人员费用工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40101, AVD401, 月度到岗比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40102, AVD401, Special说明, false, store, false, , , , , text, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40103, AVD401, 基本工资合计, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010301, AVD40103, 基本工资_员工, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD401030101, AVD4010301, 基本工资_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD401030102, AVD4010301, 基本工资_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4010302, AVD40103, 高管工资, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD40104, AVD401, 奖金合计, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010401, AVD40104, 奖金_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4010402, AVD40104, 高管奖金, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD40105, AVD401, Assumption, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010501, AVD40105, 平均工资, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD401050101, AVD4010501, 平均工资_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD401050102, AVD4010501, 平均工资_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4010502, AVD40105, 餐补, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010503, AVD40105, 工资涨幅比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010504, AVD40105, PM Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010505, AVD40105, Overtime Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010506, AVD40105, 销售人员奖金比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010507, AVD40105, 外企服务费_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4010508, AVD40105, 外企服务费_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40106, AVD401, 高管房租补贴, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40107, AVD401, 高管商业保险, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD402, AVD4, 折旧费用工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40201, AVD402, US GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40202, AVD402, US GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40203, AVD402, PRC GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40204, AVD402, PRC GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40205, AVD402, Dpr分摊科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4020501, AVD40205, 员工类折旧分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4020502, AVD40205, 是否参与员工折旧分摊, false, store, false, , , , YorN, enumeration, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4020503, AVD40205, 参与折旧分摊的人数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40206, AVD402, 折旧费用合计, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4020601, AVD40206, 已有资产折旧_自有, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4020602, AVD40206, 新增资产折旧_自有, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4020603, AVD40206, 大搜狐分摊折旧, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4020604, AVD40206, 资产折旧_转入, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4020605, AVD40206, 折旧费用_部门调整, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD40207, AVD402, 折旧费用合计_待分摊, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4020701, AVD40207, 已有资产折旧_待分摊, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4020702, AVD40207, 新增资产折旧_待分摊, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4020703, AVD40207, 折旧调整_待分摊, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD403, AVD4, 带宽工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40301, AVD403, 带宽分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40302, AVD403, 带宽辅助编制科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4030201, AVD40302, 带宽标识科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4030202, AVD40302, 数量, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD403020201, AVD4030202, 数量_committed, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD403020202, AVD4030202, 数量_uncommitted, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD4030203, AVD40302, 单价, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD4030204, AVD40302, 金额合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD403020401, AVD4030204, 金额_committed, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD403020402, AVD4030204, 金额_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD403020403, AVD4030204, 业务调整金额, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD4030205, AVD40302, 分摊前带宽费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD403020501, AVD4030205, 带宽费用_待分摊, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD403020598, AVD4030205, 带宽费用_VAT抵减, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD403020599, AVD4030205, 带宽费用_整体调整, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD4030206, AVD40302, 分摊带宽费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD403020601, AVD4030206, 视频分摊带宽费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD403020602, AVD4030206, 板块外分摊带宽费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD404, AVD4, 公摊费用汇总, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD40401, AVD404, 视频分摊公摊费用, false, store, false, , , DGPT, , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD40402, AVD404, 大搜狐分摊公摊费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD40403, AVD404, 视频带宽公摊费用, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AVD40498, AVD404, 公摊费用_VAT抵减, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD40499, AVD404, 公摊费用_整体调整, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AVD405, AVD4, 公摊费用分摊科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40501, AVD405, 参与公摊费用分摊人数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40502, AVD405, 公摊费用分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD406, AVD4, 差旅应酬费用基数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD407, AVD4, 版权摊销工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40701, AVD407, 视频版权成本, false, store, false, , , DGPT, , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD40702, AVD407, 音乐版权成本, false, store, false, , , DGPT, , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD40703, AVD407, 自制剧成本, false, store, false, , , DGPT, , currency, expense, flow, none, none, expense, Plan1, true, ~
+AVD408, AVD4, PRC GAAP新增版权摊销, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40801, AVD408, PRC GAAP新增视频版权摊销, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD40802, AVD408, PRC GAAP新增音乐版权摊销, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AVD40803, AVD408, PRC GAAP视频版权摊销年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AVD40804, AVD408, PRC GAAP音乐版权摊销年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~

@@ -1,0 +1,105 @@
+Entity, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Base Currency, Plan Type (Plan1), Aggregation (Plan1), Attribute_Bizline, Attribute_ByNature, Attribute_city
+EN2, Entity, 焦点, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN200, EN2, 焦点_缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+EN299, EN2, 焦点_调整, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, , 
+EN203, EN2, 新房_焦点, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN20301, EN203, 新房_北京, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030601, EN203, 新房_天津, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_天津
+EN20303, EN203, 新房_上海, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_上海
+EN20304, EN203, 旅游地产_新房, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN2030403, EN20304, 区域运营_旅游地产_新房, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030401, EN20304, 新房_海口, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_海口
+EN2030406, EN20304, 新房_三亚, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, 
+EN2030402, EN20304, 北京_旅游地产_新房_13, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030404, EN20304, 新房_大理, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, 
+EN2030405, EN20304, 新房_威海, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, 
+EN20305, EN203, 东北区_新房, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN2030505, EN20305, 区域运营_东北区_新房, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030501, EN20305, 新房_哈尔滨, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_哈尔滨
+EN2030502, EN20305, 新房_长春, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_长春
+EN2030504, EN20305, 新房_大连, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_大连
+EN2030503, EN20305, 新房_沈阳, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_长春
+EN20306, EN203, 华北区_新房, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN2030609, EN20306, 区域运营_华北区_新房, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030602, EN20306, 新房_济南, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_济南
+EN2030603, EN20306, 新房_青岛, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_青岛
+EN2030604, EN20306, 新房_太原, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_太原
+EN2030605, EN20306, 新房_郑州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_郑州
+EN2030606, EN20306, 新房_秦皇岛, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_秦皇岛
+EN2030607, EN20306, 唐山_华北区_新房_13, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_唐山
+EN2030608, EN20306, 新房_石家庄, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_石家庄
+EN2030610, EN20306, 新房_呼和浩特, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_呼和浩特
+EN2030611, EN20306, 新房_烟台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_烟台
+EN20307, EN203, 华东区_新房, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN2030709, EN20307, 区域运营_华东区_新房, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030702, EN20307, 新房_杭州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_杭州
+EN2030701, EN20307, 新房_南京, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_南京
+EN2030704, EN20307, 新房_无锡, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_无锡
+EN2030703, EN20307, 新房_苏州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_苏州
+EN2030705, EN20307, 新房_常州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_常州
+EN2030707, EN20307, 新房_武汉, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_武汉
+EN2030706, EN20307, 新房_合肥, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_合肥
+EN2030708, EN20307, 新房_宁波, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_宁波
+EN20308, EN203, 华南区_新房, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN2030806, EN20308, 区域运营_华南区_新房, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030807, EN20308, 新房_产业, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030801, EN20308, 新房_广州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_广州
+EN2030802, EN20308, 新房_深圳, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_深圳
+EN2030803, EN20308, 新房_东莞, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_东莞
+EN2030804, EN20308, 新房_厦门, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_厦门
+EN2030805, EN20308, 新房_长沙, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_长沙
+EN2030808, EN20308, 新房_福州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_福州
+EN2030809, EN20308, 新房_珠海, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, 
+EN20310, EN20308, 新房_分摊部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030811, EN20308, 新房_惠州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_惠州
+EN2030812, EN20308, 新房_佛山, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_佛山
+EN20309, EN203, 西南区_新房, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN2030906, EN20309, 区域运营_西南区_新房, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030901, EN20309, 新房_重庆, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_重庆
+EN2030907, EN20309, 新房_乔戈里, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN2030902, EN20309, 新房_成都, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_成都
+EN2030903, EN20309, 新房_西安, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_西安
+EN2030905, EN20309, 新房_南宁, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_南宁
+EN2030904, EN20309, 新房_昆明, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_昆明
+EN20302, EN203, 新房_后台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN205, EN2, 新房_加盟站, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN202, EN2, 家居_焦点, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN20201, EN202, 华北区_家居_13, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20202, EN202, 华东区_家居_13, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_上海
+EN20203, EN202, 华南区_家居_13, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_广州
+EN20205, EN202, 后台_家居_13, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20206, EN202, 家居_广告媒体中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20207, EN202, 家居_网站运营部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20209, EN202, 家居_策略部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20208, EN202, 家居_设计师部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20204, EN202, 家居_装修服务中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN201, EN2, 二手房_焦点, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN20101, EN201, 二手房_北京, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20103, EN201, 二手房_天津, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_天津
+EN20102, EN201, 二手房_上海, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_上海
+EN20107, EN201, 二手房_深圳, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_深圳
+EN20106, EN201, 二手房_广州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_广州
+EN20104, EN201, 二手房_成都, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_成都
+EN20109, EN201, 二手房_重庆, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_重庆
+EN20110, EN201, 二手房_苏州, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_苏州
+EN20111, EN201, 二手房_石家庄, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_石家庄
+EN20112, EN201, 二手房_昆明, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_昆明
+EN20108, EN201, 二手房_后台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN204, EN2, 全国支持_焦点, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN20403, EN204, 全国支持_经营管理中心, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20404, EN204, 全国支持_市场部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20401, EN204, 全国支持_产品部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN20402, EN204, 移动事业部_全国支持, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN20406, EN204, 思源_全国支持_13, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN20405, EN204, 全国支持_管理部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN20407, EN204, 员工服务中心_全国支持, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN20408, EN204, 财务/法律/人事_全国支持, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN5, Entity, 分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN501, EN5, 大搜狐_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN508, EN5, 体育中心_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN502, EN5, 汽车_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN503, EN5, 焦点_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN504, EN5, 视频_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN507, EN5, 视频_PC端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN506, EN5, 视频_移动端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+NoEntity, Entity, 与部门无关, false, store, false, , , , , unspecified, CNY, true, ~, , , 

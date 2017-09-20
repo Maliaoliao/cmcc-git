@@ -1,0 +1,207 @@
+Account, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Account Type, Time Balance, Skip Value, Exchange Rate Type, Variance Reporting, Source Plan Type, Plan Type (Plan1), Aggregation (Plan1)
+ASH1, Account, 营业利润, false, dynamic calc, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH101, ASH1, 净收入合计, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH10101, ASH101, 广告收入, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010101, ASH10101, 媒体广告收入, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH101010101, ASH1010101, 品牌广告收入, false, store, false, , , AR50101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH101010103, ASH1010101, 中长尾-精准CPC广告收入, false, store, false, , , AR50104, , unspecified, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH101010104, ASH1010101, 中长尾-其他广告收入, false, store, false, , , AR50105, , unspecified, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH101010102, ASH1010101, 媒体广告分摊收入, false, store, false, , , AR50199, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010102, ASH10101, 政府广告收入, false, store, false, , , AR50102, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010103, ASH10101, 其他广告收入, false, store, false, , , AR50103, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH10102, ASH101, 无线收入, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010201, ASH10102, 短信, false, store, false, , , AR52101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010202, ASH10102, 彩信, false, store, false, , , AR52102, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010203, ASH10102, WAP, false, store, false, , , AR52103, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010204, ASH10102, 语音互动, false, store, false, , , AR52104, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010205, ASH10102, 彩铃, false, store, false, , , AR52105, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010206, ASH10102, 手机游戏, false, store, false, , , AR52106, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010207, ASH10102, 阅读, false, store, false, , , AR52107, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010208, ASH10102, 手机视频, false, store, false, , , AR52108, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010209, ASH10102, 应用商店, false, store, false, , , AR52109, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010212, ASH10102, Animation, false, store, false, , , AR52112, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010213, ASH10102, MDO, false, store, false, , , AR52111, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010210, ASH10102, BusinessTaxes, false, store, false, , , AR52110, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH1010211, ASH10102, 无线分摊收入, false, store, false, , , AR52199, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH10103, ASH101, 其他收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH10104, ASH101, 其他收入_内部交易(与搜狗及畅游), false, store, false, , , AR50098, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+ASH102, ASH1, 成本合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, -
+ASH10201, ASH102, 广告成本, false, store, false, , , AD1001, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10202, ASH102, 无线成本, false, store, false, , , AD1002, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10203, ASH102, 其他成本, false, store, false, , , AD1003, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10204, ASH102, 广告成本(内部交易), false, store, false, , , AD1001, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103, ASH1, 费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, -
+ASH10301, ASH103, 人员费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030101, ASH10301, 工资, false, store, false, , , "AE1101, Act", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030102, ASH10301, 奖金, false, store, false, , , AE1102, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030103, ASH10301, 销售人员奖金, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030104, ASH10301, 加班费, false, store, false, , , AE1104, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030105, ASH10301, 劳务费, false, store, false, , , AE1105, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030106, ASH10301, 离职补偿金, false, store, false, , , AE1106, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030107, ASH10301, 津贴, false, store, false, , , AE1107, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030108, ASH10301, 员工活动费, false, store, false, , , AE1108, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030109, ASH10301, 外籍员工生活费及其他, false, store, false, , , AE1109, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030110, ASH10301, 外籍员工税金, false, store, false, , , AE1110, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030111, ASH10301, 员工房租补贴, false, store, false, , , AE1111, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH1030112, ASH10301, 外企服务费, false, store, false, , , AE1113, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030113, ASH10301, 员工商业保险, false, store, false, , , AE1114, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH1030114, ASH10301, 福利费_养老金, false, store, false, , , AE1201, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030115, ASH10301, 福利费_医疗保险, false, store, false, , , AE1202, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030123, ASH10301, 福利费_生育保险, false, store, false, , , AE1202, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH1030116, ASH10301, 福利费_工伤失业保险, false, store, false, , , AE1203, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030117, ASH10301, 福利费_住房公积金, false, store, false, , , AE1204, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030118, ASH10301, 福利费_教育经费, false, store, false, , , AE1205, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030119, ASH10301, 福利费_工会经费, false, store, false, , , AE1206, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030120, ASH10301, 福利费_其他, false, store, false, , , AE1207, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030121, ASH10301, 福利费_残障金, false, store, false, , , AE1208, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030122, ASH10301, Stock  Compensation, false, store, false, , , AE1209, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH1030198, ASH10301, 人员费用_VAT抵减, false, store, false, , , AE1189, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030199, ASH10301, 人员费用_整体调整, false, store, false, , , AE1100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10302, ASH103, 差旅应酬费用, false, store, false, , , AE1300_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10303, ASH103, 专业服务费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030301, ASH10303, 专业服务费用_committed, false, store, false, , , "AE1500_Budget, DGPT", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030302, ASH10303, 专业服务费用_uncommitted, false, store, false, , , "AE1500_Budget, DGPT", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030303, ASH10303, 专业服务费用_VAT抵减, false, store, false, , , AE1589, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH10304, ASH103, 市场推广费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030401, ASH10304, 日常推广, false, store, false, , , "DGPT, AE1601", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030402, ASH10304, 品牌推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103040201, ASH1030402, 品牌推广_committed, false, store, false, , , "DGPT, AE1602", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103040202, ASH1030402, 品牌推广_uncommitted, false, store, false, , , "DGPT, AE1602", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030498, ASH10304, 市场推广费用_VAT抵减, false, store, false, , , AE1689, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030499, ASH10304, 市场推广费用_整体调整, false, store, false, , , AE1600_Eli, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030403, ASH103, 渠道费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103040301, ASH1030403, 渠道费用_committed, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103040302, ASH1030403, 渠道费用_uncommitted, false, store, false, , , "DGPT, AE160301", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103040398, ASH1030403, 渠道费用_VAT抵减, false, store, false, , , AE160302, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103040399, ASH1030403, 渠道费用_整体调整, false, store, false, , , AE160301, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10305, ASH103, 内容采购费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030501, ASH10305, 图文采购, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103050101, ASH1030501, 图文采购_committed, false, store, false, , , "DGPT, AE1701", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103050102, ASH1030501, 图文采购_uncommitted, false, store, false, , , "DGPT, AE1701", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030502, ASH10305, 稿酬费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103050201, ASH1030502, 专家, false, store, false, , , "DGPT, AE1705", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103050202, ASH1030502, 普通, false, store, false, , , "DGPT, AE1705", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030503, ASH10305, 内容活动, false, store, false, , , "DGPT, AE1703", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030598, ASH10305, 内容采购费用_VAT抵减, false, store, false, , , AE1789, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030599, ASH10305, 内容采购费用_整体调整, false, store, false, , , AE1700_Eli, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10306, ASH103, 通讯费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030601, ASH10306, 带宽费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103060101, ASH1030601, 公司分摊带宽费用, false, store, false, , , AE2603, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103060102, ASH1030601, 部门自有带宽费用, false, store, false, , , AE2502, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030602, ASH10306, 电话费用, false, store, false, , , AE2501, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10307, ASH103, 坏账费用, false, store, false, , , AE2000, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10308, ASH103, 折旧费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030801, ASH10308, 员工类折旧费用, false, store, false, , , AE2100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030802, ASH10308, 服务器类折旧费用, false, store, false, , , AE2604, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1030803, ASH10308, 软件类折旧费用, false, store, false, , , AE2204, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10309, ASH103, 其他资产分摊, false, store, false, , , AE2200_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10317, ASH103, 办公费用合计, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH10310, ASH10317, 办公费用, false, store, false, , , AE1900_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1031001, ASH10317, 办公费用_VAT抵减, false, store, false, , , AE1989, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH10311, ASH103, 公摊费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1031101, ASH10311, 公司分摊公摊费用, false, store, false, , , AE2601, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1031102, ASH10311, 部门自有公摊费用, false, store, false, , , AE1800_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1031103, ASH10311, 其他分摊公摊费用, false, store, false, , , "DGPT, AE2601", , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH10312, ASH103, 培训费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1031201, ASH10312, 员工, false, store, false, , , "DGPT, AE1401", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH1031202, ASH10312, 高管, false, store, false, , , "DGPT, AE1401", , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10313, ASH103, 销售费用分摊, false, store, false, , , AE2602, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10314, ASH103, Back office费用分摊, false, store, false, , , AE2602, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH10315, ASH103, Intangible Assets Impairment, false, store, false, , , AE2700, , currency, expense, flow, none, none, expense, Plan1, true, -
+ASH10316, ASH103, Goodwill Impairment, false, store, false, , , AE2800, , currency, expense, flow, none, none, expense, Plan1, true, -
+ASH2, Account, Capex工作科目, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH201, ASH2, 采购金额, false, store, false, , , "DGPT, AFN41", , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH202, ASH2, 到货金额, false, store, false, , , "DGPT, AFN42", , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH3, Account, HC预算, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH301, ASH3, 可招人数预算, false, label only, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH30102, ASH301, 新增可招人数, false, store, false, , , AFN50102, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH3010, ASH301, 期末可招人数, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH30101, ASH3010, 期末全职可招人数, false, store, false, , , AFN50101, , non-currency, saved assumption, balance, none, none, non-expense, Plan1, true, +
+ASH30103, ASH3010, 期末兼职可招人数, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH302, ASH3, 期末到岗, false, store, false, , , , , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+ASH30201, ASH302, 期末全职到岗, false, store, false, , , AFN50201, , non-currency, saved assumption, balance, none, none, non-expense, Plan1, true, +
+ASH30202, ASH302, 期末兼职到岗, false, store, false, , , AFN50202, , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+ASH303, ASH3, 新增到岗, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH30301, ASH303, 新增全职到岗, false, store, false, , , AFN50301, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH30302, ASH303, 新增兼职到岗, false, store, false, , , AFN50302, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4, Account, 辅助编制科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH401, ASH4, 人员费用工作科目, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40101, ASH401, 月度到岗比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40102, ASH401, Special说明, false, store, false, , , , , text, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40103, ASH401, 基本工资合计, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010301, ASH40103, 基本工资_员工, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH401030101, ASH4010301, 基本工资_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH401030102, ASH4010301, 基本工资_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4010302, ASH40103, 高管工资, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH40104, ASH401, 奖金合计, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010401, ASH40104, 奖金_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4010402, ASH40104, 高管奖金, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH40105, ASH401, Assumption, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010501, ASH40105, 平均工资, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH401050101, ASH4010501, 平均工资_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH401050102, ASH4010501, 平均工资_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4010502, ASH40105, 餐补, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010503, ASH40105, 工资涨幅比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010504, ASH40105, PM Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010505, ASH40105, Overtime Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010506, ASH40105, 销售人员奖金比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4010507, ASH40105, 外企服务费_全职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4010508, ASH40105, 外企服务费_兼职, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH40106, ASH401, 高管房租补贴, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40107, ASH401, 高管商业保险, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH402, ASH4, 折旧费用工作科目, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40201, ASH402, US GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40202, ASH402, US GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40203, ASH402, PRC GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40204, ASH402, PRC GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40205, ASH402, Dpr分摊科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4020501, ASH40205, Server折旧分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4020502, ASH40205, 员工类折旧分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4020503, ASH40205, 是否参与员工折旧分摊, false, store, false, , , , YorN, enumeration, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4020504, ASH40205, 参与折旧分摊的人数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4020505, ASH40205, Network Equipment折旧分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4020506, ASH40205, Building折旧板块分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4020507, ASH40205, 板块参与building分摊人数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40206, ASH402, 折旧费用合计_待分摊, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4020601, ASH40206, 已有资产折旧_待分摊, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4020602, ASH40206, 新增资产折旧_待分摊, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4020603, ASH40206, 折旧费用_整体调整, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH40207, ASH402, 折旧费用合计_部门, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4020701, ASH40207, 已有资产折旧_自有, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4020702, ASH40207, 资产折旧_转入, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4020703, ASH40207, 新增资产折旧_自有, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4020704, ASH40207, 折旧费用_部门调整, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH403, ASH4, 带宽工作科目, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40301, ASH403, 带宽分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40302, ASH403, 带宽辅助编制科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4030201, ASH40302, 带宽标识科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4030202, ASH40302, 数量, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH403020201, ASH4030202, 数量_committed, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH403020202, ASH4030202, 数量_uncommitted, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+ASH4030203, ASH40302, 单价, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH4030204, ASH40302, 金额合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+ASH403020401, ASH4030204, 金额_committed, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH403020402, ASH4030204, 金额_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH403020403, ASH4030204, 业务调整金额, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH4030205, ASH40302, 分摊前带宽费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+ASH4030204, ASH4030205, 金额合计, false, shared, false, , , , , currency, expense, flow, none, none, expense, , true, +
+ASH403020598, ASH4030205, 带宽费用_VAT抵减, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+ASH403020599, ASH4030205, 带宽费用_整体调整, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH4030206, ASH40302, 分摊带宽费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+ASH403020601, ASH4030206, 大搜狐分摊带宽费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH403020602, ASH4030206, 板块外分摊带宽费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH40303, ASH403, 直接成本（17173成本）, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH404, ASH4, 公摊费用汇总, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+ASH40401, ASH404, 公摊费用小计, false, store, false, , , DGPT, , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH103060101, ASH404, 公司分摊带宽费用, false, shared, false, , , AE2603, , currency, expense, flow, none, none, expense, , true, +
+ASH1030803, ASH404, 软件类折旧费用, false, shared, false, , , AE2204, , currency, expense, flow, none, none, expense, , true, +
+ASH1030802, ASH404, 服务器类折旧费用, false, shared, false, , , AE2604, , currency, expense, flow, none, none, expense, , true, +
+ASH1030801, ASH404, 员工类折旧费用, false, shared, false, , , AE2100_Budget, , currency, expense, flow, none, none, expense, , true, +
+ASH40498, ASH404, 公摊费用_VAT抵减, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH40499, ASH404, 公摊费用_整体调整, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+ASH405, ASH4, 搜狐转入公摊费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+ASH406, ASH4, 公摊费用分摊科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40601, ASH406, 是否参与公摊费用分摊, false, store, false, , , , YorN, enumeration, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40602, ASH406, 参与公摊费用分摊人数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH40603, ASH406, 公摊费用分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+ASH408, ASH4, 汇率, false, store, false, , , , , currency, saved assumption, balance, missing and zeros, none, non-expense, Plan1, true, ~

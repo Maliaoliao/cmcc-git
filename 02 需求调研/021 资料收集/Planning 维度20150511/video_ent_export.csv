@@ -1,0 +1,56 @@
+Entity, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Base Currency, Plan Type (Plan1), Aggregation (Plan1), BusinessLine, Attribute_ByNature, Attribute_city
+EN4, Entity, 视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN400, EN4, 视频_缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+EN499, EN4, 视频_调整, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, , 
+EN403, EN4, 内容运营_视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN40301, EN403, 内容编辑部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN40302, EN403, 广电合作部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN412, EN4, 市场推广中心_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN411, EN4, 艺人合作中心_视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN41101, EN411, 艺人中心_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN41102, EN411, 大型活动部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN410, EN4, 版权影视中心_视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN404, EN410, 版权采购部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN405, EN410, 版权分销部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_Cost, Attri_北京
+EN406, EN410, 影视剧投资部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_Cost, Attri_北京
+EN407, EN410, 影视制作部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN402, EN4, 技术中心_视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN40206, EN402, 技术成本_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN40203, EN402, 技术部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN40201, EN402, 付费用户_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_PD, Attri_北京
+EN40202, EN402, 互动直播部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_PD, Attri_北京
+EN40211, EN4, 前向事业部-cost虚拟部门, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN40212, EN4, 移动视频游戏运营部-cost虚拟部门, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN40209, EN4, Number_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN40210, EN4, 视频-corp_前向事业部, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_PD, Attri_北京
+EN40205, EN4, 产品中心_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN40207, EN4, 产品技术中心_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN401, EN4, 广告销售_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN408, EN4, 市场沟通中心_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN40901, EN4, 经营管理中心_视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN4090101, EN40901, 商务发展部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN4090102, EN40901, 经营管理部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN40902, EN4, 员工中心_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN409, EN4, 视频虚拟部门_视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN40903, EN409, 财务部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN40904, EN409, 法律部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN40905, EN409, 内部审计部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN40906, EN409, 人力资源部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN40907, EN409, 管理部_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN40908, EN409, 分摊费用部门_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN413, EN4, 多屏互动云平台_视频, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN40204, EN413, 移动视频中心_多屏互动云平台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN40213, EN413, 游戏运营部_多屏互动云平台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_PD, Attri_北京
+EN40214, EN413, OTT_多屏互动云平台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_PD, Attri_北京
+EN40215, EN413, 基础运营部_多屏互动云平台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN40208, EN413, 前向事业部_多屏互动云平台, false, store, false, , , , , unspecified, CNY, true, +, Attri_Other Revenue, Attri_PD, Attri_北京
+EN414, EN4, 商业产品技术中心_视频, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN5, Entity, 分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN501, EN5, 大搜狐_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN508, EN5, 体育中心_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN502, EN5, 汽车_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN503, EN5, 焦点_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN504, EN5, 视频_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN507, EN5, 视频_PC端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN506, EN5, 视频_移动端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+NoEntity, Entity, 与部门无关, false, store, false, , , , , unspecified, CNY, true, ~, , , 

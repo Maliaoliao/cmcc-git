@@ -1,0 +1,181 @@
+Account, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Account Type, Time Balance, Skip Value, Exchange Rate Type, Variance Reporting, Source Plan Type, Plan Type (Plan1), Aggregation (Plan1)
+AFS1, Account, 营业利润, false, dynamic calc, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS101, AFS1, 净收入合计, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AFS10101, AFS101, 广告净收入, false, never share, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AFS1010101, AFS10101, 收入下单金额, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, ~
+AFS1010102, AFS10101, 收入收入金额, false, store, false, , , AR50101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AFS10102, AFS101, 其他收入, false, store, false, , , , , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AFS1010201, AFS10102, 培训收入, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AFS1010202, AFS10102, 家居商城, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AFS1010203, AFS10102, 装修网, false, store, false, , , AR58101, , currency, revenue, flow, none, none, non-expense, Plan1, true, +
+AFS102, AFS1, 成本合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, -
+AFS10201, AFS102, 广告成本, false, store, false, , , AD1001, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10202, AFS102, 其他成本, false, store, false, , , AD1003, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS103, AFS1, 费用合计, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, -
+AFS10301, AFS103, 人员费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030101, AFS10301, 工资, false, store, false, , , AE1101, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030102, AFS10301, 奖金, false, store, false, , , AE1102, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030103, AFS10301, 销售人员奖金, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030124, AFS10301, 电商奖金, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030125, AFS10301, 利润分成, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030126, AFS10301, PK奖金, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030127, AFS10301, 管理层奖金, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030128, AFS10301, 销售奖金整体调整, false, store, false, , , AE1103, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030104, AFS10301, 加班费, false, store, false, , , AE1104, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030105, AFS10301, 劳务费, false, store, false, , , AE1105, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030106, AFS10301, 离职补偿金, false, store, false, , , AE1106, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030107, AFS10301, 津贴, false, store, false, , , AE1107, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030108, AFS10301, 员工活动费, false, store, false, , , AE1108, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030109, AFS10301, 外籍员工生活费及其他, false, store, false, , , AE1109, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030110, AFS10301, 外籍员工税金, false, store, false, , , AE1110, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030111, AFS10301, 员工房租补贴, false, store, false, , , AE1111, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030112, AFS10301, 外企服务费, false, store, false, , , AE1113, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030113, AFS10301, 员工商业保险, false, store, false, , , AE1114, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030114, AFS10301, 福利费_养老金, false, store, false, , , AE1201, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030115, AFS10301, 福利费_医疗保险, false, store, false, , , AE1202, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030123, AFS10301, 福利费_生育保险, false, store, false, , , AE1202, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS1030116, AFS10301, 福利费_工伤失业保险, false, store, false, , , AE1203, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030117, AFS10301, 福利费_住房公积金, false, store, false, , , AE1204, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030118, AFS10301, 福利费_教育经费, false, store, false, , , AE1205, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030119, AFS10301, 福利费_工会经费, false, store, false, , , AE1206, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030120, AFS10301, 福利费_其他, false, store, false, , , AE1207, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030121, AFS10301, 福利费_残障金, false, store, false, , , AE1208, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030122, AFS10301, Stock  Compensation, false, store, false, , , AE1209, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS1030198, AFS10301, 人员费用_VAT抵减, false, store, false, , , AE1189, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030199, AFS10301, 人员费用_整体调整, false, store, false, , , AE1100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10302, AFS103, 差旅应酬费用, false, store, false, , , "AE1300_Budget, DGPT", , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10303, AFS103, 专业服务费用, false, store, false, , , AE1500_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10304, AFS103, 市场推广费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030401, AFS10304, 日常推广, false, store, false, , , AE1601, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030403, AFS10304, 合作费摊销, false, store, false, , , AE1604, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030404, AFS10304, 其他推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS103040401, AFS1030404, 其他推广_committed, false, store, false, , , AE1604, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS103040402, AFS1030404, 其他推广_uncommitted, false, store, false, , , AE1604, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030405, AFS10304, 直销业务., false, store, false, , , AE1601, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030406, AFS10304, 市场推广费用_其他, false, store, false, , , AE1601, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030498, AFS10304, 市场推广费用_VAT抵减, false, store, false, , , AE1689, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030499, AFS10304, 市场推广费用_整体调整, false, store, false, , , AE1600_Eli, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030402, AFS103, 渠道费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS103040201, AFS1030402, 渠道费用_committed, false, store, false, , , AE160301, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS103040202, AFS1030402, 渠道费用_uncommitted, false, store, false, , , AE160301, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS103040298, AFS1030402, 渠道费用_VAT抵减, false, store, false, , , AE160302, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS103040299, AFS1030402, 渠道费用_整体调整, false, store, false, , , AE160301, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10305, AFS103, 内容采购费用, false, store, false, , , AE1700_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10306, AFS103, 通讯费用, false, store, false, , , AE2500_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10307, AFS103, 坏账费用, false, store, false, , , AE2000, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10308, AFS103, 折旧费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030801, AFS10308, 员工类折旧费用, false, store, false, , , AE2100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030802, AFS10308, 服务器类折旧费用, false, store, false, , , AE2100_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1030803, AFS10308, 软件类折旧费用, false, store, false, , , AE2204, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10309, AFS103, 其他资产分摊, false, store, false, , , AE2200_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10310, AFS103, 办公费用, false, store, false, , , AE1901, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10311, AFS103, 公摊费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1031101, AFS10311, 公司分摊公摊费用, false, store, false, , , AE1800_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1031102, AFS10311, 其他分摊公摊费用, false, store, false, , , AE1800_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS1031103, AFS10311, 部门自有公摊费用, false, store, false, , , AE1800_Budget, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10312, AFS103, 培训费用, false, store, false, , , AE1401, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10313, AFS103, 销售费用分摊, false, store, false, , , AE2602, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10314, AFS103, Back office费用分摊, false, store, false, , , AE2602, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10315, AFS103, Intangible Assets Impairment, false, store, false, , , AE2700, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10316, AFS103, Goodwill Impairment, false, store, false, , , AE2800, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS10317, AFS103, Inventory Provision, false, store, false, , , AE2900, , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS2, Account, Capex工作科目, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS201, AFS2, 采购金额, false, store, false, , , "DGPT, AFN41", , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS202, AFS2, 到货金额, false, store, false, , , "DGPT, AFN42", , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS3, Account, HC预算, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS301, AFS3, 可招人数预算, false, label only, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS30102, AFS301, 新增可招人数, false, store, false, , , AFN50102, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS3010, AFS301, 期末可招人数., false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS30101, AFS3010, 期末可招人数, false, store, false, , , AFN50101, , non-currency, saved assumption, balance, none, none, non-expense, Plan1, true, +
+AFS30103, AFS3010, 期末兼职可招人数, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS302, AFS3, 期末到岗, false, store, false, , , , , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, ~
+AFS30201, AFS302, 期末全职到岗, false, store, false, , , AFN50201, , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+AFS30202, AFS302, 期末兼职到岗, false, store, false, , , AFN50202, , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+AFS30203, AFS302, 期末派遣到岗, false, store, false, , , , , non-currency, saved assumption, balance, missing, none, non-expense, Plan1, true, +
+AFS303, AFS3, 新增到岗, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS30301, AFS303, 新增全职到岗, false, store, false, , , AFN50301, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS30302, AFS303, 新增兼职到岗, false, store, false, , , AFN50302, , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS30303, AFS303, 新增派遣到岗, false, store, false, , , , , non-currency, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS4, Account, 其他工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS401, AFS4, 人员费用工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40101, AFS401, 月度到岗比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40102, AFS401, 基本工资_员工, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010201, AFS40102, 基本工资_全职, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS4010202, AFS40102, 基本工资_兼职, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS4010203, AFS40102, 基本工资_派遣, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, +
+AFS40103, AFS401, Assumption, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010301, AFS40103, 平均工资, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS401030101, AFS4010301, 平均工资_全职, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS401030102, AFS4010301, 平均工资_兼职, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS401030103, AFS4010301, 平均工资_派遣, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010302, AFS40103, 餐补, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010303, AFS40103, 工资涨幅比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010304, AFS40103, PM Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010305, AFS40103, Overtime Rate, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010306, AFS40103, 外企服务费_全职, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010307, AFS40103, 外企服务费_兼职, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010315, AFS40103, 外企服务费_派遣, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010308, AFS40103, 福利费_工伤保险, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010309, AFS40103, 福利费_失业保险, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010310, AFS40103, 销售人员奖金比例, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010311, AFS40103, 电商奖金比例, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010312, AFS40103, 利润分成比例, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010313, AFS40103, 电商收入比例, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4010314, AFS40103, 利润分成基数, false, store, false, , , , , currency, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS402, AFS4, 折旧费用工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40201, AFS402, US GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40202, AFS402, US GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40203, AFS402, PRC GAAP折旧年限, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40204, AFS402, PRC GAAP残值率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40205, AFS402, 折旧费用合计, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, ~
+AFS4020501, AFS40205, 已有资产折旧, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS4020502, AFS40205, 新增资产折旧, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS4020503, AFS40205, 大搜狐分摊折旧, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS4020504, AFS40205, 折旧费用_部门调整, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS403, AFS4, 公摊费用工作科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40301, AFS403, 焦点总部公摊费用汇总, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, ~
+AFS4030101, AFS40301, 大搜狐分摊公摊费用, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS4030102, AFS40301, 焦点自有分摊公摊费用, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS403010201, AFS4030102, 焦点自有分摊公摊费用_committed, false, store, false, , , DGPT, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS403010202, AFS4030102, 焦点自有分摊公摊费用_uncommitted, false, store, false, , , DGPT, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS40302, AFS403, 部门自有公摊费用汇总, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, ~
+AFS4030201, AFS40302, 部门自有公摊费用_平台, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS403020101, AFS4030201, 部门自有公摊费用_平台committed, false, store, false, , , DGPT, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS403020102, AFS4030201, 部门自有公摊费用_平台uncommitted, false, store, false, , , DGPT, , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS4030202, AFS40302, 部门自有公摊费用_补录, false, store, false, , , , , unspecified, expense, flow, none, none, expense, Plan1, true, +
+AFS40303, AFS403, 辅助编制科目, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4030301, AFS40303, 是否参与公摊费用分摊, false, store, false, , , , YorN, enumeration, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4030302, AFS40303, 公摊费用分摊比率, false, store, false, , , , , percentage, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4030303, AFS40303, 参与公摊费用分摊的人数, false, store, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS404, AFS4, A&P分摊工作科目, false, label only, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40401, AFS404, A&P预算自有, false, label only, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4040101, AFS40401, 自有_市场推广费用, false, dynamic calc, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404010101, AFS4040101, 自有_日常推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404010102, AFS4040101, 自有_合作费摊销, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404010103, AFS4040101, 自有_其他推广, false, dynamic calc, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS40401010301, AFS404010103, 自有_其他推广_committed, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS40401010302, AFS404010103, 自有_其他推广_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404010104, AFS4040101, 自有_直销业务, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404010105, AFS4040101, 自有_市场推广费用_其他, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS4040102, AFS40401, 自有_渠道费用, false, dynamic calc, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404010201, AFS4040102, 自有_渠道费用_committed, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404010202, AFS4040102, 自有_渠道费用_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS40402, AFS404, A&P分摊, false, label only, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4040202, AFS40402, 分摊_渠道费用_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS4040203, AFS40402, 分摊_其他推广_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS40403, AFS404, A&P预算调整, false, label only, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4040301, AFS40403, 调整_市场推广费用_整体调整, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS4040302, AFS40403, 调整_渠道费用_整体调整, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS40404, AFS404, A&P待分摊, false, label only, false, , , , , unspecified, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS4040402, AFS40404, 待分摊_渠道费用_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS4040403, AFS40404, 待分摊_其他推广_uncommitted, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS40405, AFS404, 分摊比例, false, store, false, , , , , percentage, saved assumption, average, none, none, non-expense, Plan1, true, ~
+AFS40406, AFS404, 是否分摊至对象, false, store, false, , , , YorN, enumeration, saved assumption, flow, none, none, non-expense, Plan1, true, ~
+AFS40407, AFS404, A&P编制汇总, false, dynamic calc, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, ~
+AFS4040701, AFS40407, 汇总_市场推广费用, false, dynamic calc, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404070101, AFS4040701, 汇总_日常推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404070102, AFS4040701, 汇总_合作费摊销, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404070103, AFS4040701, 汇总_其他推广, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404070104, AFS4040701, 汇总_直销业务, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS404070105, AFS4040701, 汇总_市场推广费用_其他, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +
+AFS4040702, AFS40407, 汇总_渠道费用, false, store, false, , , , , currency, expense, flow, none, none, expense, Plan1, true, +

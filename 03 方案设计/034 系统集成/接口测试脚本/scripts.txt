@@ -1,0 +1,62 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://business.webservice.dga.ierp.shrj.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <bus:checkBudgetData>
+         <bus:in0>
+         <![CDATA[<?xml version="1.0" encoding="utf-8"?>
+		<ROOT> 
+		  <MATDATA_TABLE> 
+		    <SOURCE_SYS>视频版权</SOURCE_SYS>  
+		    <REQUEST_HEADER_ID>100005</REQUEST_HEADER_ID>  
+		    <REQUEST_HEADER_NUMBER>HEAD_NUB_10005</REQUEST_HEADER_NUMBER>  
+		    <REQUEST_LINE_ID>10000501</REQUEST_LINE_ID>  
+		    <REQUEST_LINE_NUMBER>LINE_NUMBER_10000501</REQUEST_LINE_NUMBER>  
+		    <DEPT_CODE>TEST-VIDEO1</DEPT_CODE>  
+		    <DEPT_NAME>TEST-视频</DEPT_NAME>  
+		    <PROJECT_CODE>TEST-US</PROJECT_CODE>  
+		    <PROJECT_NAME>美剧</PROJECT_NAME>  
+		    <SERVICE_DATE_FROM>2016-01-01</SERVICE_DATE_FROM>  
+		    <SERVICE_DATE_TO>2016-12-31</SERVICE_DATE_TO>  
+		    <PERIODS>2016-Q1</PERIODS>  
+		    <ALLO_AMOUNT>100</ALLO_AMOUNT>  
+		    <CURRENCY>RMB</CURRENCY>  
+		    <STATUS>提交</STATUS> 
+		  </MATDATA_TABLE> 
+		</ROOT>]]>
+</bus:in0>
+      </bus:checkBudgetData>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://business.webservice.dga.ierp.shrj.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <bus:updateBudgetData>
+         <bus:in0>
+         <![CDATA[<?xml version="1.0" encoding="utf-8"?>
+		<?xml version="1.0" encoding="utf-8"?>
+		<ROOT> 
+		  <MATDATA_TABLE> 
+		    <IFEXCEED></IFEXCEED>  
+		    <REQUEST_ID></REQUEST_ID>  
+		    <SOURCE_SYS>视频版权</SOURCE_SYS>  
+		    <REQUEST_HEADER_ID>100005</REQUEST_HEADER_ID>  
+		    <REQUEST_HEADER_NUMBER>HEAD_NUB_10005</REQUEST_HEADER_NUMBER>  
+		    <REQUEST_LINE_ID>10000501</REQUEST_LINE_ID>  
+		    <REQUEST_LINE_NUMBER>LINE_NUMBER_10000501</REQUEST_LINE_NUMBER>  
+		    <DEPT_CODE>TEST-VIDEO1</DEPT_CODE>  
+		    <DEPT_NAME>TEST-视频</DEPT_NAME>  
+		    <PROJECT_CODE>TEST-US</PROJECT_CODE>  
+		    <PROJECT_NAME>美剧</PROJECT_NAME>  
+		    <SERVICE_DATE_FROM>2016-01-01</SERVICE_DATE_FROM>  
+		    <SERVICE_DATE_TO>2016-12-31</SERVICE_DATE_TO>  
+		    <PERIODS>2016-Q1</PERIODS>  
+		    <ALLO_AMOUNT>10000</ALLO_AMOUNT>  
+		    <CURRENCY>RMB</CURRENCY>  
+		    <STATUS>提交驳回</STATUS> 
+		  </MATDATA_TABLE> 
+		</ROOT>]]>
+</bus:in0>
+      </bus:updateBudgetData>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,57 @@
+Entity, Parent, Alias: Default, Valid For Consolidations, Data Storage, Two Pass Calculation, Description, Formula, UDA, Smart List, Data Type, Base Currency, Plan Type (Plan1), Aggregation (Plan1), BusinessLine, Attribute_ByNature, Attribute_city
+EN3, Entity, 汽车, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN300, EN3, 汽车_缺省, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, Attri_GA, 
+EN399, EN3, 汽车_调整, false, store, false, , , , , unspecified, CNY, true, +, Attri_Corp, , 
+EN301, EN3, 外站_汽车, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN30101, EN301, 东北区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30102, EN301, 华北区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30106, EN301, 华东区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30107, EN301, 华南区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30105, EN301, 华中区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30103, EN301, 山东区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30104, EN301, 苏皖区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30108, EN301, 西部区_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_其他城市
+EN30109, EN301, 区域支持_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN302, EN3, 总部_汽车, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN30204, EN302, 高管组_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN30205, EN302, 行政组_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN30212, EN302, 总编室_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30208, EN302, 市场部_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN30211, EN302, 营销策略中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN30210, EN302, 新闻中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30218, EN302, 咨询产品技术部_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN30216, EN302, 二手车中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN30214, EN302, 评测中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30219, EN302, 车型库中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30215, EN302, 报价库中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30220, EN302, 车迷中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30201, EN302, 产品中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN30206, EN302, 互动中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN30213, EN302, 数据中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN30217, EN302, 移动中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN30207, EN302, 技术中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN30203, EN302, 服务营销中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN30222, EN302, 内容及运营中心一部_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30223, EN302, 内容及运营中心二部_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30224, EN302, 内容及运营中心三部_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30225, EN302, 内容及运营中心四部_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30226, EN302, 媒体产品中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN30227, EN302, 自媒体运营组_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30202, EN302, 导购中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30221, EN302, 新平台_汽车, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN3022104, EN30221, 高管_新平台_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_GA, Attri_北京
+EN3022102, EN30221, 产品中心_新平台_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN3022101, EN30221, 内容中心_新平台_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN30209, EN30221, 技术中心_新平台_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_PD, Attri_北京
+EN3022103, EN30221, 买车宝_新平台_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN30228, EN302, 车主服务中心_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_SM, Attri_北京
+EN30229, EN302, 视频组_汽车, false, store, false, , , , , unspecified, CNY, true, +, Attri_Brand ad, Attri_Cost, Attri_北京
+EN5, Entity, 分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN501, EN5, 大搜狐_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN508, EN5, 体育中心_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, ~, , , 
+EN502, EN5, 汽车_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN503, EN5, 焦点_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN504, EN5, 视频_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN507, EN5, 视频_PC端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+EN506, EN5, 视频_移动端_分摊中转部门, false, store, false, , , , , unspecified, CNY, true, +, , , 
+NoEntity, Entity, 与部门无关, false, store, false, , , , , unspecified, CNY, true, ~, , , 
